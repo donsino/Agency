@@ -1,0 +1,183 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    outline: 0;
+    text-decoration: none;
+    list-style: none;
+      
+}
+
+body {
+    font-family: sans-serif;
+    line-height: 1.7;
+    background-color: var(--background-color);
+
+}
+
+:root {
+    --background-color: #fbfbfc;
+    --button1-color: #18559b;
+    --light-white: #e6f3ff;
+    --hero-color: #384453;
+    --container-width-lg: 76%;
+    --container-width-md: 90%;
+    --container-width-sm: 94;
+    --transition: all 400ms ease;
+}
+
+body {
+    min-height: 100vh;
+    background-color: var(--background-color);
+    color: var(--hero-color);
+    line-height: 1.7;
+    list-style: none;
+    
+}
+
+/* CONTAINER STYLES */
+
+.container{
+    padding-left: 100px;
+    padding-right: 70px;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 18px;
+    /* Nav width */
+    padding-left: 60px;
+    padding-right: 14em ;
+    /* end of nav width*/
+    list-style: none;
+    
+}
+
+
+.book-btn {
+    background-color: yellow;
+    padding: 10px;
+}
+
+ul{
+    display: flex;
+    gap: 15px;
+}
+
+/*  hero stying */
+.hero {
+    margin-top: 5em;
+    padding: 10px;
+    background-image: url("/image/aka.jpg");
+    background-size: cover;
+    color: var(--light-white);
+    height: 300px;
+    
+}
+
+/* hero container */
+.hero .button-container .btn{
+    padding: 5px;
+    margin: 10px;
+
+}
+
+/* card container */
+.card-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin: 10px;
+    gap: 10px;
+}
+
+.card{
+    background-color: var(--light-white);
+    padding: 10px;
+    
+}
+
+
+/* service */
+.choose{
+    display: grid;
+    position: relative;
+    list-style: none;
+
+}
+
+
+/* Service stylying */
+.service-container{
+    display: flex;
+
+    
+}
+
+.service{
+    margin-top: 20px;
+}
+
+
+/* image styling */
+.card > img{
+    border-radius: 10px ;
+    height: 50px;
+    width: 70px;
+    justify-content: center;
+}
+
+.image-right > img{
+    height: 250px;
+    width: 250px;
+    background-image: cover;
+    border-radius: 20px;  
+    border: 1px solid red; 
+    margin-left: 27em;
+}
+
+.image-left > p {
+    border: 1px solid red;
+    font-size: x-large;
+}
+
+
+/* Learn Section */
+.learn{
+    background-color: var(--button1-color);
+    margin-top: 10px;
+    padding: 20px;
+}
+
+.learn > .btn{
+    padding: 10px;
+}
+
+/* Footer */
+.footer{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    padding-left: 100px;
+    padding-right: 70px;
+}
+
+.footer .footer-card{
+    padding: 10px;
+}
+
+/* copyright */
+.copyright{
+    text-align: center;
+}
+
+
+/* 600px,min601px,768px,992px,1200px */
+
+
+
+
