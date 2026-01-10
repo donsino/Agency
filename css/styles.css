@@ -38,8 +38,8 @@ body {
 /* CONTAINER STYLES */
 
 .container{
-    padding-left: 100px;
-    padding-right: 70px;
+    padding-left: 5px;
+    padding-right: 5px;
 }
 
 header {
@@ -137,12 +137,10 @@ ul{
     width: 250px;
     background-image: cover;
     border-radius: 20px;  
-    border: 1px solid red; 
     margin-left: 27em;
 }
 
 .image-left > p {
-    border: 1px solid red;
     font-size: x-large;
 }
 
@@ -162,8 +160,8 @@ ul{
 .footer{
     display: grid;
     grid-template-columns: repeat(5, 1fr);
-    padding-left: 100px;
-    padding-right: 70px;
+    padding-left: 5px;
+    padding-right: 5px;
 }
 
 .footer .footer-card{
